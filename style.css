@@ -154,6 +154,11 @@ section h3::after{
   display: block;
   margin: 20px auto;
 }
+#team div{
+ max-width: 1170px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
 #aboutus, #team{
   text-align: center;
 }
