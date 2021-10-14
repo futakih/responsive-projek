@@ -33,7 +33,7 @@ nav{
  
 }
 nav .layar-dalam{
-  padding: 0 40px;
+  padding: 0 40px 0 0;
 }
 nav.putih{
   background-color: #fff;
@@ -95,7 +95,7 @@ header .intro{
   color: #fff;
   text-align: center;
   position: relative;
-  top:50%;
+  top:40%;
 }
 header .intro h3 {
   line-height: 40px  ;
