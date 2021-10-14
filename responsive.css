@@ -1,0 +1,95 @@
+/* resposive untuk tablet */
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+.intro h3{
+  padding-bottom: 20px;
+
+}
+@media screen and (max-width: 1000px){
+  .section{
+    width: 100% ;
+  }
+  .layar-dalam{
+    width: 50%;
+  }
+  .intro{
+    padding: 0 20px;
+  }
+  .menu{
+    padding-right: 40px;
+  }
+  nav .menu ul{
+    width: 50%;
+    float: left;
+    left: 50%;
+    padding-left: 40%;
+  }
+  nav .menu li{
+    position: relative;
+  }
+  nav .logo{
+    float: left;
+    position: absolute;
+    left: 50px;
+  }
+  section{
+    width: auto;
+  }
+  .support img{
+    width: 50px;
+  }
+  .support{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .support div{
+    padding: 10px 40px;
+    width: 50%;
+  }
+  section#gallery{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  section#gallery div img{
+    height: 120px;
+  }
+ 
+  footer .layar-dalam{
+    width: 100% ;
+    flex-wrap: wrap;
+  }
+  footer .layar-dalam div{
+    padding: 20px;
+    width: 50%;
+  }
+
+}
+
+/* resposive untuk smartphone */
+@media screen and (max-width: 670px){
+ .layar-dalam{
+   width: 100%;
+ }
+ nav .menu ul{
+   display: none;
+ }
+ .tombol-menu{
+   display: flex;
+ }
+ .support, .tim{
+   display: block;
+ }
+ .support div, .tim div{
+   width: 100%;
+   padding-bottom: 30px;
+ }
+ footer .layar-dalam div{
+   padding: 20px;
+   width: 100%;
+   text-align: center;
+}
+}
