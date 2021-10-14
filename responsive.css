@@ -1,20 +1,13 @@
 /* resposive untuk tablet */
 *{
   box-sizing: border-box;
-}
-body{
-  width: 100%;
-}
-.intro h3{
-  padding-bottom: 20px;
-
-}
+} 
 @media screen and (max-width: 1000px){
   .section{
     width: 100% ;
   }
   .layar-dalam{
-    width: 50%;
+    width: 70%;
   }
   .intro{
     padding: 0 20px;
